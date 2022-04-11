@@ -1,7 +1,8 @@
 export default function Mission() {
   return (
-    <section className="relative mt-24 md:mt-32 md:mx-auto" id="mission">
-      <div className="text-center text-sm text-gray-500 ">
+    <section className="md:grid md:grid-cols-2 md:gap-4 mt-24 md:px-12 md:mt-32 md:mx-auto" id="mission">
+     <div className="md:mt-40" >
+     <div className="text-center  text-sm text-gray-500 ">
         Why Engr. Chief Elias Mbam Should be the Choice of Ebonyi People Come
         2023.{" "}
       </div>
@@ -9,8 +10,9 @@ export default function Mission() {
         Mbam Support Group, Governorship Campaign  Committee ~ Mission
         Statement
       </div>
+     </div>
 
-      <div className="flex flex-col  mt-4 md:px-32 pt-4">
+      <div className="flex flex-col  mt-4 md:px-12 pt-4">
         <div className="collapse w-full bg-green-500 rounded-box shadow-sm mb-4 collapse-arrow">
           <input type="checkbox" />
           <div className="collapse-title text-lg text-white font-medium">
@@ -63,7 +65,7 @@ export default function Mission() {
           </div>
         </div>
 
-        <div className="collapse w-full bg-green-500 rounded-box shadow-sm mb-4 collapse-arrow">
+        <div className="collapse w-full bg-red-500 rounded-box shadow-sm mb-4 collapse-arrow">
           <input type="checkbox" />
           <div className="collapse-title text-lg text-white font-medium">
             Very Principled{" "}
@@ -114,7 +116,7 @@ export default function Mission() {
           </div>
         </div>
 
-        <div className="collapse w-full bg-green-500 rounded-box shadow-sm mb-4 collapse-arrow">
+        <div className="collapse w-full bg-red-500 rounded-box shadow-sm mb-4 collapse-arrow">
           <input type="checkbox" />
           <div className="collapse-title text-lg text-white font-medium">
             Will Diversify Natural Resources{" "}
