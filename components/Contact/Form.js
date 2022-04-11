@@ -25,42 +25,42 @@ function Form() {
   const onSubmit = (data ,e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_vk16ywj",
-        "template_skgxeaa",
-        form.current,
-        "user_sGMmbwEi4RHCf1RNCLeP9"
-      )
-      .then(
-        (result) => {
-          // console.log(result.text);
-          if (result.status === 200) {
-              toast.success('Thank you for reaching out, we will get back to you soon', {
-                position: "top-center",
-                autoClose: 9000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-                });
-          }
-        },
-        (error) => {
-          // console.log(error.text);
-          toast.error('Please try to full the form and submit again', {
-            position: "top-center",
-            autoClose: 9000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            });
-        }
-      );
-    // console.log(data);
+    // emailjs
+    //   .sendForm(
+    //     "service_vk16ywj",
+    //     "template_skgxeaa",
+    //     form.current,
+    //     "user_sGMmbwEi4RHCf1RNCLeP9"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       // console.log(result.text);
+    //       if (result.status === 200) {
+    //           toast.success('Thank you for reaching out, we will get back to you soon', {
+    //             position: "top-center",
+    //             autoClose: 9000,
+    //             hideProgressBar: false,
+    //             closeOnClick: true,
+    //             pauseOnHover: true,
+    //             draggable: true,
+    //             progress: undefined,
+    //             });
+    //       }
+    //     },
+    //     (error) => {
+    //       // console.log(error.text);
+    //       toast.error('Please try to full the form and submit again', {
+    //         position: "top-center",
+    //         autoClose: 9000,
+    //         hideProgressBar: false,
+    //         closeOnClick: true,
+    //         pauseOnHover: true,
+    //         draggable: true,
+    //         progress: undefined,
+    //         });
+    //     }
+    //   );
+    console.log(data);
     reset();
   };
 
@@ -122,7 +122,7 @@ function Form() {
 
               <button
                 type="submit"
-                className="w-full text-center py-3 rounded bg-green-600 text-white hover:bg-white hover:text-green-600 focus:outline-none my-1"
+                className="w-full text-center py-3 rounded bg-red-500 text-white hover:bg-white hover:text-red-500 focus:outline-none my-1"
               >
                 Submit
               </button>

@@ -18,13 +18,13 @@ export default function Contact() {
         <div className="mt-12">
           <div className="flex m-4 text-gray-500 hover:text-green-500">
             <FaPhoneAlt className="mx-2 mt-1" />{" "}
-            <a href="tel:+234-810-002-6694">+234 810 002 6694</a>
+            <a href="tel:+234-810-002-6694">+234 3330 002 6694</a>
           </div>
           <div className="flex m-4 text-gray-500 hover:text-green-500">
-            <FaEnvelope className="mx-2 mt-1" /> <a href="mailto:mbameliasnwalem@gmail.com">mbameliasnwalem@gmail.com</a> 
+            <FaEnvelope className="mx-2 mt-1" /> <a href="mailto:mbameliasnwalem@gmail.com">campaigns@gmail.com</a> 
           </div>
           <div className="flex m-4 text-gray-500 hover:text-green-500">
-            <FaMapMarkerAlt className="mx-2 mt-1" /> <a  href="http://maps.google.com/?q=elymay centre Mile 50 Abakaliki" target="_blank" rel="noreferrer">ELYMAY Centre Mile 50</a> 
+            <FaMapMarkerAlt className="mx-2 mt-1" /> <a  href="http://maps.google.com/?q=elymay centre Mile 50 Abakaliki" target="_blank" rel="noreferrer"> Mile 50</a> 
           </div>
         </div>
       </div>

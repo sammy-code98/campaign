@@ -18,13 +18,13 @@ export default function Navbar() {
           isDynamic={true}
           className="inline-flex  items-center p-2 mr-4 cursor-pointer"
         >
-          <span className="text-xl text-green-600 font-bold tracking-wide">
-            MSG2023
+          <span className="text-xl text-red-500 font-bold tracking-wide">
+            Campaign
           </span>
         </Link>
         {/* hamburger button */}
         <button
-          className="inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-green-300 ml-auto hover:text-white outline-none"
+          className="inline-flex p-3 hover:bg-red-500 rounded lg:hidden text-red-400 ml-auto hover:text-white outline-none"
           onClick={handleClick}
         >
           <svg
@@ -56,7 +56,7 @@ export default function Navbar() {
               offset={-70}
               duration={500}
               isDynamic={true}
-              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-green-600 font-bold items-center justify-center hover:bg-green-600 hover:text-white"
+              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-red-500 font-bold items-center justify-center hover:bg-red-500 hover:text-white"
             >
               Home
             </Link>
@@ -68,7 +68,7 @@ export default function Navbar() {
               offset={-70}
               duration={500}
               isDynamic={true}
-              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-green-600 font-bold items-center justify-center hover:bg-green-600 hover:text-white"
+              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-red-500 font-bold items-center justify-center hover:bg-red-500 hover:text-white"
             >
               About
             </Link>
@@ -80,7 +80,7 @@ export default function Navbar() {
               offset={-70}
               duration={500}
               isDynamic={true}
-              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-green-600 font-bold items-center justify-center hover:bg-green-600 hover:text-white"
+              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-red-500 font-bold items-center justify-center hover:bg-red-500 hover:text-white"
             >
               Mission
             </Link>
@@ -92,7 +92,7 @@ export default function Navbar() {
               offset={-70}
               duration={500}
               isDynamic={true}
-              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-green-600 font-bold items-center justify-center hover:bg-green-600 hover:text-white"
+              className="lg:inline-flex lg:w-auto w-full px-6 py-2 cursor-pointer rounded text-center text-red-500 font-bold items-center justify-center hover:bg-red-500 hover:text-white"
             >
               Contact
             </Link>
