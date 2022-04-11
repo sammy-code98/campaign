@@ -157,7 +157,7 @@ export default function About() {
           <div className="flex justify-center m-4">
             <div
               onClick={() => setReadMore(!readMore)}
-              className="text-green-600 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-green-50"
+              className="text-red-500 p-2 rounded-md cursor-pointer focus:outline-none hover:bg-green-50"
             >
               {readMore ? "Read Less" : "Read More"}
             </div>

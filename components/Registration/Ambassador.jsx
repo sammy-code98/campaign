@@ -22,7 +22,7 @@ export default function StudentRegister() {
           Become an Ambassador?
         </p>
         <div className="flex justify-center xl:justify-start mt-4">
-          <button className="bg-green-600 text-white p-2 hover:bg-white hover:text-green-600 rounded-md shadow-md  cursor-pointer focus:outline-none">
+          <button className="bg-red-500 text-white p-2 hover:bg-white hover:text-red-500 rounded-md shadow-md  cursor-pointer focus:outline-none">
             <a href="#student-form"> Register Now</a>
           </button>
           <div id="student-form" className="modal">

@@ -12,7 +12,7 @@ export default function AmbassadorRegister() {
           Campaign Group
         </p>
         <div className="flex justify-center mt-4 md:justify-start xl:justify-start">
-          <button className="bg-green-600 text-white p-2 hover:bg-white hover:text-green-600 rounded-md shadow-md  cursor-pointer focus:outline-none">
+          <button className="bg-red-500 text-white p-2 hover:bg-white hover:text-red-500 rounded-md shadow-md  cursor-pointer focus:outline-none">
             <a href="#ambassador-form">Register Now</a>
           </button>
           <div id="ambassador-form" className="modal">
