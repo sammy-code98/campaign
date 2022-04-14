@@ -12,8 +12,8 @@ export default function Mission() {
       </div>
      </div>
 
-      <div className="flex flex-col  mt-4 md:px-12 pt-4">
-        <div className="collapse w-full bg-green-500 rounded-box shadow-sm mb-4 collapse-arrow">
+      <div className="flex flex-col  mt-4  pt-4">
+        <div className="collapse w-full bg-red-500 rounded-box shadow-sm mb-4 collapse-arrow">
           <input type="checkbox" />
           <div className="collapse-title text-lg text-white font-medium">
             A man of due process{" "}
