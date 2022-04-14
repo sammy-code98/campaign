@@ -5,12 +5,12 @@ export default function AmbassadorRegister() {
   return (
     <div className="grid  grid-cols-1 md:grid-cols-2 mt-4 md:mx-auto items-center md:px-24">
       <div>
-        <p className="text-center text-lg text-gray-400 md:text-left xl:text-left">
+        <h2 className="text-center text-lg text-gray-400 md:text-left xl:text-left">
           Register your
-        </p>
-        <p className="md:text-left text-gray-800 text-center text-3xl xl:text-left">
+        </h2>
+        <h2 className="md:text-left text-gray-800 text-center text-3xl xl:text-left">
           Campaign Group
-        </p>
+        </h2>
         <div className="flex justify-center mt-4 md:justify-start xl:justify-start">
           <button className="bg-red-500 text-white p-2 hover:bg-white hover:text-red-500 rounded-md shadow-md  cursor-pointer focus:outline-none">
             <a href="#ambassador-form">Register Now</a>

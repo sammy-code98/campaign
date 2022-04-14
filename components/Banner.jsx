@@ -21,10 +21,10 @@ export default function Banner() {
       <div className="absolute top-0 left-0 h-full w-full bg-black opacity-40 "></div>
 
       <div className="mt-4 absolute top-0 h-full w-full">
-        <div className="text-5xl sm:text-5xl md:text-7xl mt-24 text-left md:mt-72 xl:mt-72 p-3 text-white ">
-          <div>Mbam</div>
-          <div>Support</div>
-          <div>Group</div>
+        <div className="md:px-24 text-5xl sm:text-5xl md:text-7xl mt-24 text-left md:mt-72 xl:mt-72 p-3 text-white ">
+          <h1>Mbam</h1>
+          <h1>Support</h1>
+          <h1>Group</h1>
         </div>
       </div>
     </div>
